@@ -1,4 +1,4 @@
 interface:
   display_name: "Cold Outreach Campaign"
   short_description: "Build optimized cold email campaigns"
-  default_prompt: "Use $cold-outreach-campaign to create a reply-focused outbound email sequence for my target segment."
+  default_prompt: "Use $cold-outreach-campaign to create a launch-ready, reply-focused outbound email sequence for my target segment."
