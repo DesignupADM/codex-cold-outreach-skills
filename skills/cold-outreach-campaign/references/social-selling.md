@@ -104,7 +104,7 @@ Use LinkedIn as a trust amplifier, not just a lead source.
 
 Good practice:
 
-- send personalized connection requests with a short note
+- use a short contextual note when there is a specific shared connection, post, or account-level reason; test no-note requests for broader relevant networking
 - focus on relevant context rather than product deck dumping
 - use voice notes or short videos when they feel human and specific
 - move conversations into email only when the relationship is warm enough to continue naturally
@@ -112,10 +112,16 @@ Good practice:
 Avoid:
 
 - pitch-first DMs
-- generic connection requests with no message
+- untargeted connection requests, with or without a note
 - aggressive follow-ups before any trust has been built
 
-## Social selling is a relationship engine
+## Test connection strategy against conversations
+
+Compare notes and no-note requests within similar audience segments. Judge both acceptance and subsequent qualified conversations; higher acceptance alone does not establish a better strategy. Keep first-degree messages, connection campaigns, and InMail results separate because their audiences and denominators differ.
+
+Use current platform rules and account limits when planning activity. Do not treat vendor-reported volumes or acceptance thresholds as guaranteed safe limits. See [measurement-benchmarks.md](measurement-benchmarks.md) for dataset context.
+
+## Relationship outcomes
 
 The real value of LinkedIn is not immediate revenue. It is visibility, relevance, trust, and warm access.
 

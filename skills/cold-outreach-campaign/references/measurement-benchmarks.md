@@ -24,11 +24,24 @@ These are directional 2026-style planning ranges, not universal guarantees:
 - Above 5% total reply rate is generally good
 - Above 10% total reply rate is excellent for many cold outbound contexts
 - Positive reply rate is often materially lower than total reply rate
-- For executive outreach, some sources report higher total reply rates than non-C-suite segments, but the quality of replies matters more than the raw count
+- Segment executive and non-executive outreach separately; do not assume seniority has a universal effect on reply rates
 
 When the user asks for forecasts, emphasize that list quality, offer strength, market saturation, and sending health can move results sharply.
 
-## Bounce and health thresholds
+## Dated vendor benchmarks
+
+- [Instantly's 2026 benchmark discussion](https://instantly.ai/blog/ai-sales-agent-benchmarks-2026-the-complete-performance-report/) reports a 3.43% average reply rate, 5.5%+ for the top quartile, and 10.7%+ for the top decile from its broader cold-email dataset. These are vendor-platform results, not an AI-agent-specific baseline or a forecast for every industry.
+- [Expandi's 2026 report](https://expandi.io/blog/linkedin-outreach-benchmarks-2026/) reports 28.5% connection acceptance across 13.2 million requests sent through its accounts from May 2025 through April 2026. This is a platform sample, not all LinkedIn activity.
+
+Sources checked September 18, 2026. Retain the reporting period and population when quoting these figures. Do not combine acceptance, message replies, and positive replies into one conversion rate.
+
+## Define the denominator
+
+For internal sequence reporting, use unique contacts with a delivered email as the denominator for contact-level reply and meeting rates. Count each contact once per outcome and report the observation window. Separate positive replies from objections, opt-outs, and automatic responses. If a source uses messages sent instead, label that difference before comparing it.
+
+For calls, report human connects per dial, qualified conversations per connect, and meetings per dial separately. Track held meetings as well as booked meetings. A day's share of all connects is not its connect rate unless dial volume is also known.
+
+## Operational health thresholds
 
 - Keep bounce rate under 2%
 - If bounce rises above 2%, pause list expansion and fix data quality first

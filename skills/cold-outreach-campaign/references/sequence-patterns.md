@@ -9,7 +9,13 @@ Use this reference when building a full outbound campaign rather than a single e
 - Later emails should usually get shorter
 - Proof and specificity should increase as the sequence progresses
 
-## Standard 3-touch sequence
+## Choose sequence length from incremental value
+
+Invest the strongest relevance and proof in the first two touches. Use the three- and five-touch patterns below as starting templates, not required lengths. Add later steps only when they introduce a credible new angle and produce useful incremental replies without worsening complaints or opt-outs. Do not impose a universal two-email cutoff or a fixed 60-day restart rule from an aggregate report.
+
+For an initial draft, test roughly 50–125 words organized as context, value, and one ask; shorten or expand when the buyer's task requires it. This is a writing constraint to test, not a guaranteed performance optimum.
+
+## Three-touch template
 
 ### Email 1: Relevance plus offer
 

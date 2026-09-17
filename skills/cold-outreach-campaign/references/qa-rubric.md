@@ -60,3 +60,7 @@ If the draft scores low on:
 - CTA is simple
 - No deceptive tactics or fake familiarity
 - No sentence feels like template filler
+- Personalization facts have a source and date; inferred needs are not presented as observed facts
+- Benchmarks identify their population, period, and denominator
+- Multichannel plans pause queued automation on reply and assign response ownership
+- AI-generated capabilities, guarantees, and proof points match approved evidence

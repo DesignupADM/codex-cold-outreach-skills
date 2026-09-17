@@ -2,6 +2,20 @@
 
 This file captures the research set used to strengthen the `cold-outreach-campaign` skill on May 19, 2026.
 
+## September 18, 2026 update
+
+Integrated the user-supplied report, "The State of B2B Cold Outreach in 2026: Industry Benchmarks, Playbooks, and AI-Driven Execution." The supplied text includes source titles and domains, but incomplete citation mappings such as `[cite: 14]`; treat it as a research brief rather than independently verified evidence.
+
+Added buyer self-service assets, coordinated stakeholder outreach, source-backed AI research, stop-on-reply handoffs, conditional connection-note testing, a sample 14-day cadence, call/video guidance, and explicit metric denominators. These are adaptable operating patterns, not causal performance guarantees.
+
+Verified benchmark anchors:
+
+- [Instantly: AI Sales Agent Benchmarks 2026](https://instantly.ai/blog/ai-sales-agent-benchmarks-2026-the-complete-performance-report/): broader platform reply rates, explicitly not AI-agent-specific results.
+- [Expandi: LinkedIn Outreach Benchmarks 2026](https://expandi.io/blog/linkedin-outreach-benchmarks-2026/): acceptance benchmark and May 2025–April 2026 sample.
+- [Instantly: Cold Email Sequence Best Practices](https://instantly.ai/blog/cold-email-sequence-best-practices/): recommends a different sequence length from the supplied report, so the skill retains adaptable templates rather than declaring a universal two-touch maximum.
+
+Not adopted as established facts: unsourced industry/persona tables; macroeconomic and buyer-preference percentages; video retention and uplift claims; tool pricing and fixed platform quotas; guaranteed domain damage or suspension thresholds; domain rotation as a way to bypass reputation problems; and blanket legal conclusions. Verify original evidence and current provider or jurisdiction-specific requirements before using those claims. The report's unrelated medical disclaimer was omitted.
+
 ## Main patterns extracted
 
 Across the linked articles, the most repeated themes were:

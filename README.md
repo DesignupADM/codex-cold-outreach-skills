@@ -25,6 +25,7 @@ skills/
     SKILL.md
     agents/openai.yaml
     references/
+      ai-assisted-execution.md
       preflight-deliverability.md
       research-brief.md
       prospecting-frameworks.md
@@ -45,6 +46,7 @@ research/
 ## Skill highlights
 
 - Research-first workflow so personalization is tied to a real angle
+- AI-assisted research with evidence checks, stakeholder coordination, and response handoffs
 - Prospecting and prioritization frameworks to focus time on the best-fit buyers
 - Personalization-by-tier guidance for balancing manual research with automation
 - Executive outreach guidance centered on Show Me You Know Me® research and human-first personalization
@@ -57,6 +59,39 @@ research/
 - Multichannel sequence guidance that combines email, calls, and social touchpoints
 - KPI and benchmark guidance that prioritizes replies over vanity metrics
 - QA rubric to tighten clarity, proof, tone, and CTA quality before launch
+
+## Install
+
+List the available skills with the [skills CLI](https://github.com/vercel-labs/skills):
+
+```bash
+npx skills add DesignupADM/codex-cold-outreach-skills --list
+```
+
+Install this skill and select your agent when prompted:
+
+```bash
+npx skills add DesignupADM/codex-cold-outreach-skills --skill cold-outreach-campaign
+```
+
+Listing confirms discovery by that installer; it does not certify skill quality or safety.
+
+## Publishing a release
+
+Maintainers need an authenticated [GitHub CLI](https://cli.github.com/) version that includes `gh skill`. Run these commands from the repository root after committing and pushing the intended release content:
+
+```bash
+gh auth status
+gh skill publish --dry-run
+```
+
+After validation succeeds, publish interactively to choose a version and configure the repository topic:
+
+```bash
+gh skill publish
+```
+
+For a predetermined, unused release tag, use `gh skill publish --tag v1.0.0` instead. See the [official publishing documentation](https://cli.github.com/manual/gh_skill_publish) for validation rules and options. The repository must be public for others to install without private-repository access.
 
 ## Using the skill in Codex
 

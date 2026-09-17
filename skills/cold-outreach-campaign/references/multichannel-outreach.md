@@ -69,7 +69,29 @@ If a prospect sees your brand, hears from you via a relevant email, and later se
 
 The goal is to make the buyer feel like they are dealing with a real professional who understands their problem, not a generic outreach machine.
 
-## Practical output standard
+## Adaptable 14-day cadence
+
+Use this as a planning example, adjusting channels, spacing, and touch count to the segment and observed response:
+
+| Day | Channel | Purpose |
+| --- | --- | --- |
+| 1 | Email | Verified trigger, relevant outcome, one easy ask |
+| 1–2 | LinkedIn | Relevant connection request; note only when it adds context |
+| 3 | Phone | Brief contextual call; voicemail only if useful |
+| 5 | LinkedIn | Useful message if connected, or substantive engagement with a relevant post |
+| 7 | Phone | Second attempt at a different appropriate local time |
+| 10 | Email | New proof point, useful asset, or short account-specific video |
+| 14 | Email | Respectful close if another touch is justified |
+
+Only mention a voicemail or other touch that actually occurred. Skip channels that are unavailable or unsuitable. A reply pauses queued automated touches across channels; see [ai-assisted-execution.md](ai-assisted-execution.md) for response handling. Do not send every planned touch after engagement or an opt-out.
+
+## Calls and video
+
+For calls, identify yourself and your company, acknowledge the interruption, and ask briefly for permission to explain the relevant reason for calling. Example: "Hi [Name], this is [You] at [Company]. May I take half a minute to explain why [verified event] prompted my call?" Do not manufacture familiarity. Test calling windows in the prospect's local time and compare connects per dial, not raw totals.
+
+For video, test a concise 45–90 second account-specific explanation: the observed issue, one useful insight or demonstration, and a clear next step. Include a text summary so watching is optional. Use only timestamps that exist in the actual video. Compare positive replies and held meetings against a similar text-only cohort before scaling production.
+
+## Deliverable checklist
 
 When the user asks for a multichannel campaign, include:
 

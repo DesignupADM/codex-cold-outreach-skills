@@ -13,6 +13,7 @@ Keep the main output practical. Default to concise, copy-ready assets instead of
 
 ## Load References Only When Needed
 
+- Read [references/ai-assisted-execution.md](references/ai-assisted-execution.md) when planning buyer self-service assets, stakeholder coverage, AI research workflows, or automation handoffs.
 - Read [references/research-brief.md](references/research-brief.md) when the campaign brief is incomplete, the target segment is unclear, or personalization needs to be made more specific.
 - Read [references/prospecting-frameworks.md](references/prospecting-frameworks.md) when the user needs prospect selection, prioritization, or fit analysis before building a sequence.
 - Read [references/personalization-by-tier.md](references/personalization-by-tier.md) when deciding how much research and customization each lead deserves.
