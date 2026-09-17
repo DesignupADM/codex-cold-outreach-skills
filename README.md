@@ -27,10 +27,15 @@ skills/
     references/
       preflight-deliverability.md
       research-brief.md
+      prospecting-frameworks.md
+      personalization-by-tier.md
+      show-me-you-know-me.md
       opening-lines.md
       subject-lines.md
       copy-frameworks.md
       sequence-patterns.md
+      social-selling.md
+      multichannel-outreach.md
       measurement-benchmarks.md
       qa-rubric.md
 research/
@@ -40,11 +45,16 @@ research/
 ## Skill highlights
 
 - Research-first workflow so personalization is tied to a real angle
+- Prospecting and prioritization frameworks to focus time on the best-fit buyers
+- Personalization-by-tier guidance for balancing manual research with automation
+- Executive outreach guidance centered on Show Me You Know Me® research and human-first personalization
 - Preflight guidance for authentication, warm-up, list verification, and send readiness
 - Subject line guidance focused on curiosity, relevance, and deliverability
 - Opener guidance centered on signal-based first lines
 - Copy frameworks for short, reply-focused outbound emails
 - Sequence guidance for 3-touch and 5-touch campaigns
+- Social selling guidance for LinkedIn engagement and trust-building
+- Multichannel sequence guidance that combines email, calls, and social touchpoints
 - KPI and benchmark guidance that prioritizes replies over vanity metrics
 - QA rubric to tighten clarity, proof, tone, and CTA quality before launch
 

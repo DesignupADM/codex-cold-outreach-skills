@@ -14,11 +14,16 @@ Keep the main output practical. Default to concise, copy-ready assets instead of
 ## Load References Only When Needed
 
 - Read [references/research-brief.md](references/research-brief.md) when the campaign brief is incomplete, the target segment is unclear, or personalization needs to be made more specific.
+- Read [references/prospecting-frameworks.md](references/prospecting-frameworks.md) when the user needs prospect selection, prioritization, or fit analysis before building a sequence.
+- Read [references/personalization-by-tier.md](references/personalization-by-tier.md) when deciding how much research and customization each lead deserves.
+- Read [references/show-me-you-know-me.md](references/show-me-you-know-me.md) when the user needs high-value executive outreach or highly personalized research-based email strategy.
 - Read [references/preflight-deliverability.md](references/preflight-deliverability.md) when the user needs a launch checklist, deliverability guardrails, or list/inbox readiness guidance.
 - Read [references/subject-lines.md](references/subject-lines.md) when generating, ranking, or improving subject lines.
 - Read [references/opening-lines.md](references/opening-lines.md) when writing or testing first lines and openers.
 - Read [references/copy-frameworks.md](references/copy-frameworks.md) when writing or rewriting body copy.
 - Read [references/sequence-patterns.md](references/sequence-patterns.md) when building a full multi-touch campaign.
+- Read [references/social-selling.md](references/social-selling.md) when incorporating LinkedIn comments, content, and trust-building into outbound flows.
+- Read [references/multichannel-outreach.md](references/multichannel-outreach.md) when building email-plus-calls-plus-LinkedIn outreach sequences.
 - Read [references/measurement-benchmarks.md](references/measurement-benchmarks.md) when setting goals, KPIs, expected ranges, or launch-readiness metrics.
 - Read [references/qa-rubric.md](references/qa-rubric.md) before finalizing copy, especially when the user asks for optimization or performance improvement.
 
