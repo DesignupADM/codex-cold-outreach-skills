@@ -30,34 +30,48 @@ Keep the main output practical. Default to concise, copy-ready assets instead of
 
 ## Intake Before Copy Creation
 
-Analyze the user's prompt and the conversation context first. Check whether the following essentials are already provided in the prompt or chat memory:
+Analyze the conversation history, previous prompts, and any attached files, snippets, or URLs first. Systematically look for:
+- Product, service, or offer details
+- Target buyer persona, role, or industry
+- Concrete customer proof, case studies, or metrics
+- Campaign objective or desired call-to-action (CTA)
 
-- Which product, service, or offer the user wants to promote
-- A short description of what it does
-- Target audience: segment, buyer role, company type, industry, or market
-- Overall goal of the sequence: booked meetings, replies, demos, signups, or opening a conversation
+**Rule**: Do not ask for information that is already provided in previous turns or context. If the user provided a company name, website, or snippet, infer what is obvious and ask only for confirmation or missing specifics.
 
-If any of these are missing, ask for them before starting copy creation. Do not silently invent them or fall back to generic assumptions.
+If key details are missing, pause and present the **Smart Diagnostic Intake**. Present these questions in a single concise batch with quick-select options so the user can answer in seconds:
 
-Question rules:
+1. **Target Persona & Core KPI**:
+   - Who is the specific buyer role and industry (e.g., VP of Sales at Series B SaaS, CFO at mid-market manufacturing)?
+   - What is the #1 headache they want gone or metric they are evaluated on right now?
+2. **Specific Solution & Concrete Proof**:
+   - In 1–2 sentences, how does your product solve that headache?
+   - What is your strongest proof point or metric? (e.g., *"helped Acme cut churn by 18%"* or *"reduced onboarding from 3 weeks to 2 days"*). *If no metrics yet, answer "None" and an insight-led angle will be used.*
+3. **The First Step / Ask**:
+   - What is the lowest-friction ask for the prospect?
+     - `[A]` Simple interest gauge (*"Open to exploring this?"* / *"Worth a look?"*)
+     - `[B]` Permission to send an asset (*"Open to seeing a 2-min breakdown / short teardown?"*)
+     - `[C]` 15-minute introductory call
+4. **Tone & Stance**:
+   - Which voice fits your brand best?
+     - `[A]` Direct & Peer-to-Peer (concise, sharp operator, zero fluff)
+     - `[B]` Founder-led & Conversational (warm, curious, personal)
+     - `[C]` Consultative & Executive (formal, benchmark-driven, risk-aware)
 
-- Ask only about information that is genuinely missing from the prompt or chat memory
-- Ask questions in one short batch instead of one at a time
-- Keep each question specific to the campaign being built
+*If partial details were already provided in context, acknowledge what was detected and ask only the remaining unaddressed questions.*
 
-Proceed without asking only when the user explicitly says to move ahead with assumptions or placeholders.
+Proceed without asking only when the user explicitly instructs to proceed with assumptions or placeholders.
 
 ## What Good Output Looks Like
 
 Strong cold outreach output should:
 
 - Match the prospect's role, context, and likely priorities
-- Show awareness of deliverability and data-quality risks before launch
-- Lead with relevance instead of company-centric background
-- Present one clear offer or conversation angle at a time
+- Fit on a mobile screen without scrolling (strictly 50–85 words default)
+- Pair each subject line with a compelling first 35–40 characters of body preview text
+- Provide 2 distinct messaging angles (e.g., Problem-led vs. Insight-led) for easy testing
 - Use believable proof, not inflated claims
-- End with a simple CTA that is easy to answer
-- Feel written by a sharp operator, not by a template engine
+- End with a frictionless interest-based CTA that can be answered in seconds
+- Sound like an insightful peer, never a generic template or spam engine
 
 ## Required Inputs
 
@@ -138,40 +152,39 @@ Keep one main idea per email. If an email needs multiple paragraphs to explain i
 
 ## 6. Generate Subject Lines and Opening Lines
 
-Draft multiple subject lines before choosing one. Mix styles instead of writing near-duplicates:
+Draft multiple subject lines before choosing. Mix styles:
 
-- Straight relevance
-- Curiosity with context
+- Straight relevance (2 to 4 words, lowercase or sentence case)
 - Problem or opportunity framing
-- Proof-based
-- Light pattern-break
+- Curiosity with peer context
+- Proof-based metric teaser
 
-Default to 10 to 15 options, then narrow to the strongest 3 to 5. Favor clear, specific, human-sounding lines over gimmicks.
+**Mobile Preview Pairing**: Always pair shortlisted subject lines with their **Mobile Preview Text** (the first 35–40 characters of the email body). The preview snippet must seamlessly hook the reader without filler phrases.
 
 Opening lines matter as much as subject lines. Prefer:
 
-- Specific observations tied to a business signal
-- Problem-first hooks that name a relevant pain point
+- Specific observations tied to a known workflow bottleneck or trigger
+- Problem-first hooks that name a relevant friction point
 - Referral or social-proof openers when legitimate
 
-Avoid filler greetings, fake familiarity, or first lines that could fit any prospect.
+Avoid filler greetings ("Hope you're well", "My name is..."), fake familiarity, or first lines that could apply to any company.
 
 ## 7. Write Conversion-Oriented Copy
 
-Default to short emails. For first-touch outbound, aim for roughly 50 to 125 words unless the user asks for another length.
+Default to high-density, ultra-scannable emails:
+
+- Strict target: **50 to 85 words** (never exceed 90 words for cold first-touch)
+- F-pattern mobile scannability: 1 to 2 sentence paragraphs maximum
+- Sentence 1: The Hook / Observation (tied to their priority or friction)
+- Sentence 2: The Value / Credibility (specific outcome + believable proof)
+- Sentence 3: Low-friction CTA (interest-based question answerable in 3 seconds)
 
 Writing rules:
 
-- Open fast
-- Use plain English
-- Fit on a smartphone screen when possible
-- Make the value legible in one read
-- Keep paragraphs short
-- Use one CTA
-- Remove filler, hype, and jargon
-- Make the reply feel low effort
-
-Avoid common dead weight such as "hope you're well," "just following up," long company intros, and generic praise.
+- Open fast: No pleasantries or self-introductions
+- Use plain English: Cut marketing jargon, corporate buzzwords, and grand claims
+- One clear CTA: Never combine multiple asks in one email
+- Low effort to reply: Prefer "Worth a look?" over demanding calendar commitments upfront
 
 ## 8. Build the Sequence
 
@@ -222,14 +235,20 @@ Use the QA rubric reference when the stakes are high or the copy still feels gen
 
 Unless the user asks for a narrower output, provide:
 
-- Brief campaign strategy summary
-- Preflight or deliverability notes when relevant
-- Primary message angle
-- Ranked subject line shortlist
-- Ranked opener shortlist when the first line matters strategically
-- Final email or full sequence
-- KPI or testing notes when the request is campaign-level
-- Notes on assumptions, placeholders, or test ideas
+1. **Campaign Strategy Brief**: Target persona, core headache, and primary differentiator.
+2. **Angle 1: Problem-Led / Cost of Inaction**:
+   - **Ranked Subject Lines (paired with Mobile Preview Text)**
+   - **Body Copy** (50–85 words, 1–2 sentence paragraphs, single interest CTA)
+3. **Angle 2: Insight / Trigger-Led (or Proof-Led)**:
+   - **Ranked Subject Lines (paired with Mobile Preview Text)**
+   - **Body Copy** (50–85 words, 1–2 sentence paragraphs, single interest CTA)
+4. **Preflight & Deliverability Notes**: Verification recency, send posture, and key assumptions.
+5. **Interactive Refinement Menu**:
+   - Prompt the user with fast one-click revision options:
+     - *Reply `Shorter` to compress copy under 50 words.*
+     - *Reply `Angle 1 Sequence` or `Angle 2 Sequence` to expand that angle into a 3-touch cadence.*
+     - *Reply `Different CTA` to test permission-based or asset-offer calls to action.*
+     - *Reply `Rewrite for [Role]` to recalibrate the copy for a different buyer persona.*
 
 ## Style Constraints
 
