@@ -1,6 +1,6 @@
 ---
 name: cold-outreach-campaign
-description: Create conversion-oriented cold outreach email campaigns, including ICP segmentation, research-backed personalization, subject line generation, opener writing, deliverability preflight checks, multi-email sequencing, measurement planning, and final QA. Use when drafting outbound prospecting emails, preparing launch-ready cold email campaigns, rewriting underperforming copy, or building reply-focused assets for sales, partnerships, or founder-led outreach.
+description: Builds conversion-oriented cold outreach email campaigns, including ICP segmentation, research-backed personalization, subject line generation, opener writing, deliverability preflight checks, multi-email sequencing, measurement planning, and final QA. Asks for the product, audience, and campaign goal before drafting when they are missing. Use when drafting outbound prospecting emails, preparing launch-ready cold email campaigns, rewriting underperforming cold email copy, or building reply-focused assets for sales, partnerships, or founder-led outreach.
 ---
 
 # Cold Outreach Campaign
