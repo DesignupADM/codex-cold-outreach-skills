@@ -11,10 +11,30 @@ For complex deals, map the economic buyer, likely champion, end users, and techn
 ## Research before generation
 
 1. Capture a relevant signal with its source, date, and account match.
-2. Separate the observed fact from the hypothesized business implication.
-3. Match that implication to an approved capability and a supported proof point.
-4. Draft concise context, value, and one low-friction ask.
-5. Check the source, personalization fields, claims, and next step before execution.
+2. Label the evidence with a confidence level before using it.
+3. Separate the observed fact from the hypothesized business implication.
+4. Match that implication to an approved capability and a supported proof point.
+5. Draft concise context, value, and one low-friction ask.
+6. Check the source, personalization fields, claims, confidence labels, and next step before execution.
+
+### Evidence confidence levels
+
+Classify every research signal as high, medium, or low confidence:
+
+- **High**: directly observed from a primary source (company careers page, official announcement, verified profile), dated within the last 90 days. Usable in external messaging.
+- **Medium**: primary source that is ambiguous or older than 90 days, or a reputable secondary source. Usable cautiously in external messaging with softer framing ("looks like", "seems").
+- **Low**: a single third-party mention, inferred from context, or unverifiable. Internal hypothesis only; never presented to the prospect as fact.
+
+Record the level in the internal brief:
+
+```yaml
+signal:
+  type: hiring
+  evidence: "3 enterprise AE positions open"
+  source: company careers page
+  observed_at: 2026-09-16
+  confidence: high
+```
 
 When evidence is weak, omit the claim or label the assumption in the internal brief. Do not imply that a funding round, job posting, or executive change proves purchase intent.
 
@@ -29,6 +49,27 @@ Drafting a campaign does not authorize sending it. Operate within the user's aut
 - Log the channel, last touch, response, owner, and next action in the shared account record.
 - Review unsupported product claims, unusual promises, and sensitive account context before sending.
 - Re-engage only with a relevant new reason and appropriate timing; elapsed time alone is not a reason to restart a sequence.
+
+## Human review gate
+
+Stop before execution when any of these apply, and output a `HUMAN REVIEW REQUIRED` flag with the triggering reasons:
+
+- Personalization is based on an ambiguous, undated, or low-confidence source
+- The message makes a non-standard claim, promise, or guarantee not in approved evidence
+- The account context is sensitive (mergers, litigation, layoffs, regulated industries)
+- The target is a Tier 1 executive or strategic account
+- Deliverability preflight is incomplete or unknown
+
+Format:
+
+```text
+HUMAN REVIEW REQUIRED
+Reasons:
+- personalization based on ambiguous source
+- high-value account
+```
+
+A campaign that clears the gate is still subject to the user's configured approval process. Drafting does not authorize sending, and passing QA does not mean the campaign is approved.
 
 ## Measure the contribution
 

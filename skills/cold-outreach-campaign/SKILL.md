@@ -27,6 +27,7 @@ Keep the main output practical. Default to concise, copy-ready assets instead of
 - Read [references/multichannel-outreach.md](references/multichannel-outreach.md) when building email-plus-calls-plus-LinkedIn outreach sequences.
 - Read [references/measurement-benchmarks.md](references/measurement-benchmarks.md) when setting goals, KPIs, expected ranges, or launch-readiness metrics.
 - Read [references/qa-rubric.md](references/qa-rubric.md) before finalizing copy, especially when the user asks for optimization or performance improvement.
+- Read [references/campaign-schema.md](references/campaign-schema.md) when the user wants structured output, a CRM or automation handoff, or repeatable campaign records.
 
 ## Intake Before Copy Creation
 
@@ -112,6 +113,8 @@ If the user wants a campaign that is ready to send, include:
 - List verification guidance
 - Volume and sequence guidance
 - KPI targets and monitoring notes
+
+If a human review is required (low-confidence personalization, non-standard claims, sensitive account context, Tier 1 executive targets, or incomplete preflight), say so explicitly and output a `HUMAN REVIEW REQUIRED` flag with the triggering reasons instead of presenting the campaign as ready to send.
 
 ## 3. Run the Preflight Check
 
@@ -249,6 +252,7 @@ Unless the user asks for a narrower output, provide:
      - *Reply `Angle 1 Sequence` or `Angle 2 Sequence` to expand that angle into a 3-touch cadence.*
      - *Reply `Different CTA` to test permission-based or asset-offer calls to action.*
      - *Reply `Rewrite for [Role]` to recalibrate the copy for a different buyer persona.*
+6. **Structured Campaign Schema** (when structured output or an automation handoff is requested): a YAML record of audience, offer, signals with confidence, hypothesis, messaging, sequence, QA, and execution status per [references/campaign-schema.md](references/campaign-schema.md).
 
 ## Style Constraints
 

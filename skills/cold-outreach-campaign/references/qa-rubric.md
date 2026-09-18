@@ -60,7 +60,9 @@ If the draft scores low on:
 - CTA is simple
 - No deceptive tactics or fake familiarity
 - No sentence feels like template filler
-- Personalization facts have a source and date; inferred needs are not presented as observed facts
+- Personalization facts have a source, date, and confidence level; low-confidence signals are not presented as observed facts
 - Benchmarks identify their population, period, and denominator
 - Multichannel plans pause queued automation on reply and assign response ownership
 - AI-generated capabilities, guarantees, and proof points match approved evidence
+- Human review is flagged for ambiguous sources, non-standard claims, sensitive accounts, and Tier 1 targets
+- The structured campaign schema is present when structured output or an automation handoff was requested

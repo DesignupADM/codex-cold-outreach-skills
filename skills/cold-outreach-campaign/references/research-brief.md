@@ -46,3 +46,13 @@ When non-critical specifics are unavailable:
 - State assumptions in one sentence before the copy.
 - Use clean, obvious bracketed placeholders: `[Company]`, `[Specific Metric]`, `[Industry]`.
 - Keep the surrounding sentence coherent so the copy is immediately readable even before filling brackets.
+
+## Evidence Confidence
+
+Label each extracted signal high, medium, or low confidence before it enters copy:
+
+- **High**: primary source, dated within the last 90 days. Usable in external messaging.
+- **Medium**: primary but dated, or a reputable secondary source. Usable with softer framing.
+- **Low**: unverifiable or inferred. Internal hypothesis only.
+
+Full definitions and the signal record format: see [ai-assisted-execution.md](ai-assisted-execution.md).

@@ -48,6 +48,7 @@ skills/
       multichannel-outreach.md
       measurement-benchmarks.md
       qa-rubric.md
+      campaign-schema.md
 research/
   cold-outreach-sources.md
 ```

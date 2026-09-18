@@ -20,14 +20,21 @@ The difference between a normal cold email and a strong Show Me You Know Me® em
 
 ## Benchmark context from the field
 
-The source material reports:
+The source material is vendor marketing content from Sam McKenna's #samsales training. It reports:
 
 - executive email open rates average around 6%
 - executive reply rates average around 0.9%
 - Show Me You Know Me® style emails often reach average open rates around 43%
 - comparable reply rates can approach 20%
 
-These numbers are not universal guarantees, but they illustrate the competitive advantage of research-based outreach when it is done well.
+These figures are vendor-reported and do not identify a defined population, measurement period, or denominator. They are directional illustrations of the method's promise, not verified industry benchmarks.
+
+Rules for using these numbers:
+
+- Never present them in client-facing copy or campaign reporting as established industry averages.
+- When the user asks for benchmarks, prefer the sourced, dated ranges in [measurement-benchmarks.md](measurement-benchmarks.md), which retain their reporting population and period.
+- If quoting these figures internally, label them "vendor-reported, unverified" and note that population, period, and denominator are unknown.
+- Argue for personalization from mechanism (relevant research outperforms generic templates), not from these specific numbers.
 
 ## The three research layers
 
