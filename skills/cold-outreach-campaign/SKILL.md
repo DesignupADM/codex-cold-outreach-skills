@@ -28,6 +28,25 @@ Keep the main output practical. Default to concise, copy-ready assets instead of
 - Read [references/measurement-benchmarks.md](references/measurement-benchmarks.md) when setting goals, KPIs, expected ranges, or launch-readiness metrics.
 - Read [references/qa-rubric.md](references/qa-rubric.md) before finalizing copy, especially when the user asks for optimization or performance improvement.
 
+## Intake Before Copy Creation
+
+Analyze the user's prompt and the conversation context first. Check whether the following essentials are already provided in the prompt or chat memory:
+
+- Which product, service, or offer the user wants to promote
+- A short description of what it does
+- Target audience: segment, buyer role, company type, industry, or market
+- Overall goal of the sequence: booked meetings, replies, demos, signups, or opening a conversation
+
+If any of these are missing, ask for them before starting copy creation. Do not silently invent them or fall back to generic assumptions.
+
+Question rules:
+
+- Ask only about information that is genuinely missing from the prompt or chat memory
+- Ask questions in one short batch instead of one at a time
+- Keep each question specific to the campaign being built
+
+Proceed without asking only when the user explicitly says to move ahead with assumptions or placeholders.
+
 ## What Good Output Looks Like
 
 Strong cold outreach output should:
@@ -52,7 +71,7 @@ Try to gather or infer:
 - Operational inputs such as domain age, warm-up status, daily send limits, and list source if the user wants launch guidance
 - Constraints such as tone, length, forbidden claims, regions, or compliance notes
 
-If some inputs are missing, proceed with explicit assumptions and keep placeholders easy to replace.
+If essential inputs are missing, follow the Intake Before Copy Creation step and ask first. For non-essential inputs, proceed with explicit assumptions and keep placeholders easy to replace.
 
 ## Workflow
 
